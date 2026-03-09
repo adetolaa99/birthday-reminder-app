@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Let's celebrate your birthday with you!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Your Birthday, Remembered 🎂🎉</h1>
+      <div class="intro-text">
+        <p>Every birthday deserves to be celebrated!</p>
+        <p>
+          Simply share your details below and you'll receive a personalized
+          birthday greeting on your big day. Let's make every birthday memorable
+          together! ✨
+        </p>
+      </div>
+      <h2>Let's get to know you</h2>
+      <form id="birthdayForm">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="What is your name?"
+          required
+          autocomplete="name"
+          inputmode="text"
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email address?"
+          required
+          autocomplete="email"
+          inputmode="email"
+        />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required autocomplete="bday" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

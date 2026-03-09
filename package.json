@@ -1,0 +1,12 @@
+{
+  "name": "birthday-reminder-vercel",
+  "version": "1.0.0",
+  "description": "An automated birthday reminder app",
+  "author": "Hassan Nafeesah Adetola",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.5.2",
+    "resend": "^6.9.2"
+  }
+}
